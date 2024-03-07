@@ -593,6 +593,16 @@
         </dependency>
       </dependencies>
     </profile>
+	<profile>
+      <id>csv-g2</id>
+      <dependencies>
+        <dependency>
+          <groupId>org.geoserver.extension</groupId>
+          <artifactId>gs-csv-g2</artifactId>
+          <version>${project.version}</version>
+        </dependency>
+      </dependencies>
+    </profile>	
     <profile>
       <id>control-flow</id>
       <dependencies>

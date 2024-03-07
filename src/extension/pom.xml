@@ -248,6 +248,13 @@
         <module>dxf</module>
       </modules>
     </profile>
+	
+    <profile>
+      <id>csv-g2</id>
+      <modules>
+        <module>csv-g2</module>
+      </modules>
+    </profile>	
     
     <profile>
       <id>printing</id>

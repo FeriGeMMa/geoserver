@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="CSVG2OutputFormat"
+		class="org.geoserver.wfs.response.CSVG2OutputFormat">
+		<constructor-arg index="0" ref="geoServer" />
+		<constructor-arg value=";" />
+	</bean>
+
+	<bean id="CSVG2PPIO" class="org.geoserver.wps.ppio.CSVG2PPIO">
+		<constructor-arg index="0" ref="wpsResourceManager" />
+		<constructor-arg ref="geoServer" />
+		<constructor-arg value=";" />
+	</bean>
+</beans>
